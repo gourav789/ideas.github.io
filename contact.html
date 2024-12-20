@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez Idées Inspirantes pour toute question ou suggestion.">
+    <title>Contact - Idées Inspirantes</title>
+    <style>
+        /* Reset and base styles */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2575fc;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        nav a:hover {
+            color: #6a11cb;
+        }
+
+        .contact {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .contact h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2575fc;
+            text-align: center;
+        }
+
+        .contact p {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        form label {
+            font-size: 1em;
+            color: #333;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        form button {
+            background: #2575fc;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        form button:hover {
+            background: #6a11cb;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 20px;
+            background: #6a11cb;
+            color: white;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Idées Inspirantes</h1>
+        <p>Votre source d'inspiration quotidienne</p>
+    </header>
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="articles.html">Articles</a>
+        <a href="about.html">À propos</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <section class="contact">
+        <h2>Contactez-nous</h2>
+        <p>Vous avez une question ou une suggestion ? Remplissez le formulaire ci-dessous pour nous envoyer un message.</p>
+        <form action="#" method="post">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+            
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Idées Inspirantes. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
